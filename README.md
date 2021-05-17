@@ -58,7 +58,7 @@
 
 （二）OpenCore: 0.6.7
 
-（三）EFI: 下载地址Download
+（三）EFI: <a href="https://github.com/QQ3233/Hackintosh-MSI-B460M-MORTAR-WIFI-i5-10500-iGPU-UHD630/releases/tag/1.0">下载地址</a>
 
    PS: 开机界面非图形界面直接选择 Reset NVRAM 选项，图形界面在选择启动盘时按空格，再选中 Reset NVRAM 选项，(回车键)重置NVRAM，重置后可能需要在BIOS中重新设置磁盘启动优先顺序
 
