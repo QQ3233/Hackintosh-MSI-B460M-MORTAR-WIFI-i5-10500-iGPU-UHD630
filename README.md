@@ -18,15 +18,18 @@
 
 	BIOS版本：7C82v11
 
-   	CPU支持:支持所有10代核显为UHD630的CPU,无核显带F的10代CPU，有以下免驱独显也可以（但无法使用核显加速）
+   PS: 
+   
+	CPU支持:
+	
+	支持所有10代核显为UHD630的CPU,无核显带F的10代CPU，有以下免驱独显也可以（但无法使用核显加速）
 
-   显卡支持：
+   	显卡支持：
 
    	支持仅有CPU核显的UHD630显卡
    	支持AMD独显 RX 470/480/570/570X/580/580X/590 系列显卡
    	支持AMD独显 RX 5500/5600/5700 系列显卡(需使用专用config.plist)
-
-	PS: 使用独显的需在BIOS里强制打开CPU核显（高级 -> 内建显示配置 -> 集成显卡多显示器(IGD Multi-monitor) -> 允许），否则核显硬件解码失效，只使用核显的可以忽略
+	使用独显的需在BIOS里强制打开CPU核显（高级 -> 内建显示配置 -> 集成显卡多显示器(IGD Multi-monitor) -> 允许），否则核显硬件解码失效，只使用核显的可以忽略
 
 二、功能测试
 
@@ -88,37 +91,37 @@
 
 （二）Mac序列号的问题
 
-    下载 OpenCore Configurator for Mac，打开 PlatformInfo -> Model Lookup | Check Coverage 右侧选择 iMac20,1 机型（生成你的唯一硬件UUID），然后 Save as (另存为) config.plist
+   下载 OpenCore Configurator for Mac，打开 PlatformInfo -> Model Lookup | Check Coverage 右侧选择 iMac20,1 机型（生成你的唯一硬件UUID），然后 Save as (另存为) config.plist
     在config.plist文件中找到如下代码，记录MLB、SystemSerialNumber和SystemUUID的值并记住它，更新EFI时，用你记录的值替换 /OC/config.plist 下对应的值即可
 
     PS: 还可使用 Hackintool 工具（系统 -> 序列号生成器）来获取三码
 
-<key>PlatformInfo</key>
+	<key>PlatformInfo</key>
 
-<dict>
+	<dict>
         
-    <key>Generic</key>
+   	 <key>Generic</key>
     
-    <dict>
-        <key>AdviseWindows</key>
-        <false/>
-        <key>MLB</key>
-        <string>C02047501CDPHCDAD</string>
-        <key>ProcessorType</key>
-        <integer>4105</integer>
-        <key>ROM</key>
-        <data>ESIzRFVm</data>
-        <key>SpoofVendor</key>
-        <true/>
-        <key>SystemMemoryStatus</key>
-        <string>Auto</string>
-        <key>SystemProductName</key>
-        <string>iMac20,1</string>
-        <key>SystemSerialNumber</key>
-        <string>C02DQSZFPN5T</string>
-        <key>SystemUUID</key>
-        <string>C567A1A9-9233-4D4D-B021-E1F38B112F33</string>
-    </dict>
+	    <dict>
+		<key>AdviseWindows</key>
+		<false/>
+		<key>MLB</key>
+		<string>C02047501CDPHCDAD</string>
+		<key>ProcessorType</key>
+		<integer>4105</integer>
+		<key>ROM</key>
+		<data>ESIzRFVm</data>
+		<key>SpoofVendor</key>
+		<true/>
+		<key>SystemMemoryStatus</key>
+		<string>Auto</string>
+		<key>SystemProductName</key>
+		<string>iMac20,1</string>
+		<key>SystemSerialNumber</key>
+		<string>C02DQSZFPN5T</string>
+		<key>SystemUUID</key>
+		<string>C567A1A9-9233-4D4D-B021-E1F38B112F33</string>
+	    </dict>
 
 （三）Win+Mac双系统解决Win系统时间时差问题
 
