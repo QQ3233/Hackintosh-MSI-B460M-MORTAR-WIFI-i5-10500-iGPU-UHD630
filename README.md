@@ -133,8 +133,7 @@
 
 （三）Win+Mac双系统解决Win系统时间时差问题
 
-   在Windows终端下使用管理员权限运行：
-    Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
+    在Windows终端下使用管理员权限运行 Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
 
 （四）设置默认启动项
 
