@@ -18,7 +18,7 @@
 	
 	硬盘：阿斯加特AN2 250GB
 	
-	显示器：2K
+	显示器：2K(DP接口)
 	
 
    PS: 
@@ -133,8 +133,9 @@
 
 （三）Win+Mac双系统解决Win系统时间时差问题
 
-    在Windows终端下使用管理员权限运行 Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
+   在Windows终端下使用管理员权限运行：
+    Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
 
 （四）设置默认启动项
 
-    多系统在启动选择界面，先使用键盘移动到要启动的项，然后按Ctrl + Enter (回车键) 进入系统，下次重启后默认就选中该项了
+    多系统在启动选择界面，先使用键盘移动到要启动的项，然后按Ctrl+Enter(回车键)进入系统，下次重启后默认就选中该项了
