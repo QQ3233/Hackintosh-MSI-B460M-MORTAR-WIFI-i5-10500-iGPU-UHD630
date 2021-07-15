@@ -41,7 +41,7 @@
 
 	睡眠/唤醒------------正常
 
-	所有USB端口----------正常
+	USB端口----------正常
 
 	核显硬件加速----------正常
 
@@ -69,7 +69,7 @@
 
 （二）OpenCore: 0.6.7
 
-（三）EFI: <a href="https://github.com/QQ3233/Hackintosh-MSI-B460M-MORTAR-WIFI-i5-10500-iGPU-UHD630/releases/tag/1.0">下载地址</a>
+（三）EFI: <a href="https://github.com/QQ3233/Hackintosh-MSI-B460M-MORTAR-WIFI-i5-10500-iGPU-UHD630/releases/">下载地址</a>
 
    PS: 开机界面非图形界面直接选择 Reset NVRAM 选项，图形界面在选择启动盘时按空格，再选中 Reset NVRAM 选项，(回车键)重置NVRAM，重置后可能需要在BIOS中重新设置磁盘启动优先顺序
 
@@ -138,3 +138,6 @@
 （四）设置默认启动项
 
     多系统在启动选择界面，先使用键盘移动到要启动的项，然后按Ctrl+Enter(回车键)进入系统，下次重启后默认就选中该项了
+（五）在windows下主板变成IMac
+
+	在OpenCore Configurator中内接设置Quirks勾选CustomSMBIOSGuid,机型平台设置不勾选spoofVendor及UpdateSMBIOSMode选择Custom。
