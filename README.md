@@ -14,9 +14,9 @@
 
 	wifi：主板内置 Intel AX200
 
-	蓝牙：主板内置
+	蓝牙：主板内置 Intel AX200
 	
-	硬盘：阿斯加特AN2 250GB
+	硬盘：西数SN750 500GB
 	
 	显示器：2K(DP接口)
 	
@@ -39,9 +39,9 @@
 
 二、功能测试
 
-	睡眠/唤醒------------正常
+	睡眠/唤醒-------------正常
 
-	USB端口----------正常
+	USB端口--------------正常
 
 	核显硬件加速----------正常
 
@@ -67,13 +67,13 @@
    	OC -> CPU 特征 -> Intel VT-D 技术：禁止
    	OC -> CPU 特征 -> CFG锁定：禁止
 
-（二）OpenCore: 0.6.7
+（二）OpenCore: 0.6.8
 
 （三）EFI: <a href="https://github.com/QQ3233/Hackintosh-MSI-B460M-MORTAR-WIFI-i5-10500-iGPU-UHD630/releases/">下载地址</a>
 
    PS: 开机界面非图形界面直接选择 Reset NVRAM 选项，图形界面在选择启动盘时按空格，再选中 Reset NVRAM 选项，(回车键)重置NVRAM，重置后可能需要在BIOS中重新设置磁盘启动优先顺序
 
-（四）系统macOS Big Sur 11.3.1
+（四）系统macOS Big Sur 11.5.1
 
 （五）系统安装:
 
@@ -138,6 +138,6 @@
 （四）设置默认启动项
 
     多系统在启动选择界面，先使用键盘移动到要启动的项，然后按Ctrl+Enter(回车键)进入系统，下次重启后默认就选中该项了
-（五）在windows下主板变成IMac
+（五）在windows下主板变成IMac20,1
 
 	在OpenCore Configurator中内接设置Quirks勾选CustomSMBIOSGuid,机型平台设置不勾选spoofVendor及UpdateSMBIOSMode选择Custom。
