@@ -144,4 +144,5 @@
 	在OpenCore Configurator中内接设置Quirks勾选CustomSMBIOSGuid,机型平台设置不勾选spoofVendor及UpdateSMBIOSMode选择Custom。
 
 （六）安装过程中遇到奇怪的问题
-	建议重置BIOS（扣掉主板的纽扣电池然后重新装上）、严格按照上述BIOS设置或者在此项目中留言。（此处感谢@Oosl的提醒）
+
+	建议重置BIOS（扣掉主板的纽扣电池然后重新装上）、严格按照上述BIOS设置或者在此项目Issues中留言。（此处感谢@Oosl的提醒）
