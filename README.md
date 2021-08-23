@@ -80,7 +80,7 @@
 
    建议使用 【黑果小兵】<a href="https://blog.daliansky.net/macOS-BigSur-11.2.3-20D91-Release-version-with-OC-0.6.7-and-Clover-5131-and-PE-original-image.html" target="_blank">macOS BigSur 11.2.3 </a>安装镜像进行安装。若安装镜像卡加号或其它异常无法安装，可使用本EFI替换安装镜像的EFI进行尝试 (本EFI请使用config_install.plist配置文件，即删除原config.plist后重命名config_install.plist为config.plist即可)。系统安装成功后，替换为本EFI默认的config.plist文件即可(注意: 安装系统时分区格式选择APFS, 而不是MacOS扩展日志式)
 
-（六）若使用4K显示器，请将 "UIScale" 的值修改为 "01" 以获得最佳ui体验
+（六）若使用4K显示器，请将 "UIScale" 的值修改为 "01" 以获得最佳ui体验，这里填写01为普通的UI显示模式，02为开启HIDPI的UI显示模式，我选择01，请自行根据实际悬着
 
     <key>UIScale</key>
     <data>01</data>
