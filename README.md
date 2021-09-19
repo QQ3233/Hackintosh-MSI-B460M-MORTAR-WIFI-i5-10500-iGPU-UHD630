@@ -1,10 +1,10 @@
 # Hackintosh-MSI-B460M-MORTAR-WIFI-i5-10500-iGPU-UHD630
-微星B460M迫击炮wifi版主板黑苹果引导文件 
+微星B460M迫击炮wifi版主板黑苹果系统引导文件 
 
    
 一、硬件配置
 
-	CPU：I5-10500
+	CPU：i5-10500
 
 	主板：迫击炮B460M MORTAR wifi版
 
@@ -16,7 +16,7 @@
 
 	蓝牙：主板内置 Intel AX200
 	
-	硬盘：西数SN750 500GB（装MacOS 11.5.1）
+	硬盘：西数SN750 500GB（装MacOS 11.6）
 	     阿斯加特AN2 250G（装windows 10）
 	
 	显示器：2K(DP接口)
@@ -24,7 +24,7 @@
 
    PS: 
    
-   	BIOS版本：7C82v11
+   	BIOS版本：7C82v14
 	
 	CPU支持:
 	
@@ -68,16 +68,16 @@
    	OC -> CPU 特征 -> Intel VT-D 技术：禁止
    	OC -> CPU 特征 -> CFG锁定：禁止
 	
-	温馨提示：如果以上BIOS设置项不会调整或找不到，请升级BIOS版本到7C82v14([7C82v14.zip](https://github.com/QQ3233/Hackintosh-MSI-B460M-MORTAR-WIFI-i5-10500-iGPU-UHD630/files/7192134/7C82v14.zip)/[mb_bios_cn.pdf](https://github.com/QQ3233/Hackintosh-MSI-B460M-MORTAR-WIFI-i5-10500-iGPU-UHD630/files/7192137/mb_bios_cn.pdf))，专家模式->设置->D.T.M,将DTM选项设置为允许，则主板自动设置为黑苹果模式。
+	温馨提示：如果以上BIOS设置项不会调整或找不到，请升级BIOS版本到7C82v14，专家模式->设置->D.T.M,将DTM选项设置为允许，则主板自动设置为黑苹果模式。
 	
 
-（二）OpenCore: 0.6.8
+（二）OpenCore: 0.7.2
 
 （三）EFI: <a href="https://github.com/QQ3233/Hackintosh-MSI-B460M-MORTAR-WIFI-i5-10500-iGPU-UHD630/releases/">下载地址</a>
 
    PS: 开机界面非图形界面直接选择 Reset NVRAM 选项，图形界面在选择启动盘时按空格，再选中 Reset NVRAM 选项，(回车键)重置NVRAM，重置后可能需要在BIOS中重新设置磁盘启动优先顺序
 
-（四）系统macOS Big Sur 11.5.1
+（四）系统macOS Big Sur 11.6
 
 （五）系统安装:
 
