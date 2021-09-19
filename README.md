@@ -68,7 +68,8 @@
    	OC -> CPU 特征 -> Intel VT-D 技术：禁止
    	OC -> CPU 特征 -> CFG锁定：禁止
 	
-	温馨提示：如果以上BIOS设置项不会调整或找不到，请升级BIOS版本到7C82v14(<a href="https://download-cn.msi.com/bos_exe/mb/7C82v14.zip">BIOS下载地址</a>，<a href="https://event.msi.com/mb/mb_bios_cn.pdf">BIOS升级指南</a>)，专家模式->设置->D.T.M,将DTM选项设置为允许，则主板自动设置为黑苹果模式。
+	温馨提示：如果以上BIOS设置项不会调整或找不到，请升级BIOS版本到7C82v14([7C82v14.zip](https://github.com/QQ3233/Hackintosh-MSI-B460M-MORTAR-WIFI-i5-10500-iGPU-UHD630/files/7192134/7C82v14.zip)/[mb_bios_cn.pdf](https://github.com/QQ3233/Hackintosh-MSI-B460M-MORTAR-WIFI-i5-10500-iGPU-UHD630/files/7192137/mb_bios_cn.pdf))，专家模式->设置->D.T.M,将DTM选项设置为允许，则主板自动设置为黑苹果模式。
+	
 
 （二）OpenCore: 0.6.8
 
