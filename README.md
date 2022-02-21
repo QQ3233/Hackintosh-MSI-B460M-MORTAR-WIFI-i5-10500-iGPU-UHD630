@@ -16,7 +16,7 @@
 
 	蓝牙：主板内置 Intel AX200
 	
-	硬盘：西数SN750 500GB（装MacOS 12.0.1）
+	硬盘：西数SN750 500GB（装MacOS 12.2）
 	     阿斯加特AN2 250G（装windows 10）
 	
 	显示器：2K(DP接口)
